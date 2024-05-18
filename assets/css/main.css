@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Beni";
+  src: url("/assets/fonts/beni-font/BeniBlack.eot");
+  src: local("Beni Black"), local("BeniBlack"),
+    url("/assets/fonts/beni-font/BeniBlack.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/beni-font/BeniBlack.woff2") format("woff2"),
+    url("/assets/fonts/beni-font/BeniBlack.woff") format("woff"),
+    url("/assets/fonts/beni-font/BeniBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Beni";
+  src: url("/assets/fonts/beni-font/BeniLight.eot");
+  src: local("Beni Light"), local("BeniLight"),
+    url("/assets/fonts/beni-font/BeniLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/beni-font/BeniLight.woff2") format("woff2"),
+    url("/assets/fonts/beni-font/BeniLight.woff") format("woff"),
+    url("/assets/fonts/beni-font/BeniLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Beni";
+  src: url("/assets/fonts/beni-font/BeniBold.eot");
+  src: local("Beni Bold"), local("BeniBold"),
+    url("/assets/fonts/beni-font/BeniBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/beni-font/BeniBold.woff2") format("woff2"),
+    url("/assets/fonts/beni-font/BeniBold.woff") format("woff"),
+    url("/assets/fonts/beni-font/BeniBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Beni";
+  src: url("/assets/fonts/beni-font/BeniRegular.eot");
+  src: local("Beni"), local("BeniRegular"),
+    url("/assets/fonts/beni-font/BeniRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/beni-font/BeniRegular.woff2") format("woff2"),
+    url("/assets/fonts/beni-font/BeniRegular.woff") format("woff"),
+    url("/assets/fonts/beni-font/BeniRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
